@@ -1,6 +1,6 @@
 {
   "name": "ut_message",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A bittorrent-protocol extension for sending arbitrary messages",
   "main": "index.js",
   "directories": {
@@ -19,7 +19,6 @@
     "tape": "^4.6.3"
   },
   "dependencies": {
-    "bencode": "^0.11.0",
     "events": "^1.1.1",
     "inherits": "^2.0.3"
   }
