@@ -1,0 +1,26 @@
+{
+  "name": "ut_message",
+  "version": "1.0.0",
+  "description": "A bittorrent-protocol extension for sending arbitrary messages",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Michael Fulton",
+    "email": "mike@michaelfulton.co"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "bittorrent-protocol": "^2.1.6",
+    "tape": "^4.6.3"
+  },
+  "dependencies": {
+    "bencode": "^0.11.0",
+    "events": "^1.1.1",
+    "inherits": "^2.0.3"
+  }
+}
